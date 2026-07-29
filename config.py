@@ -1,12 +1,12 @@
 import os
 
 # --- Bot tokens (create two bots with @BotFather) ---
-DOWNLOAD_BOT_TOKEN = os.environ.get("DOWNLOAD_BOT_TOKEN", "PUT_DOWNLOAD_BOT_TOKEN_HERE")
-ADMIN_BOT_TOKEN = os.environ.get("ADMIN_BOT_TOKEN", "PUT_ADMIN_BOT_TOKEN_HERE")
+DOWNLOAD_BOT_TOKEN = os.environ.get("DOWNLOAD_BOT_TOKEN", "8798971648:AAFaPeliozXliAo3FvLhtZ3sxdRn1eLeRpw")
+ADMIN_BOT_TOKEN = os.environ.get("ADMIN_BOT_TOKEN", "8647632292:AAF7lPz9nQsqaPadb1b1cLCi94mlsYQHkOI")
 
 # Your personal Telegram numeric ID(s) - the only people allowed to use the admin bot.
 # Get your ID by messaging @userinfobot on Telegram.
-ADMIN_IDS = [int(x) for x in os.environ.get("ADMIN_IDS", "").split(",") if x.strip()]
+ADMIN_IDS = [int(x) for x in os.environ.get("ADMIN_IDS", "6594079594").split(",") if x.strip()]
 
 # On Railway, set DB_PATH and QR_DIR to paths inside your mounted Volume
 # (e.g. /data/bot.db and /data/qr_codes) so they survive redeploys.
